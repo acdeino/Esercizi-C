@@ -1,0 +1,4 @@
+C:\Users\Edo\Desktop\Projects\GitHub\Esercizi-C\Esercizi-C\C-Programming-Exercises\Basic-Declarations-and-Expressions\c-programming-basic-exercises-11ter.c: In function 'main':
+C:\Users\Edo\Desktop\Projects\GitHub\Esercizi-C\Esercizi-C\C-Programming-Exercises\Basic-Declarations-and-Expressions\c-programming-basic-exercises-11ter.c:30:5: error: expected identifier before ';' token
+   &&;
+     ^
