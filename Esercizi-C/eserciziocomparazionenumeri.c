@@ -7,8 +7,10 @@ int main(void)
 
   printf("Inserisci due numeri interi, premi invio e ti dico\n" );
   printf("quale relazione hanno fra di loro!" );
-
-scanf("%d%d", &num1, &num2 );
+  printf("\nInserisci il primo numero:");
+  scanf("%d", &num1);
+  printf("\nOra inserisci il secondo numero:");
+  scanf("%d", &num2);
 
 if (num1==num2) {
   printf("%d e'uguale a %d\n", num1, num2);
