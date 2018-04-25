@@ -16,7 +16,7 @@ int main (void) {
   /* computing */
   while (counter <= 10) {
     printf("Enter grade: ");
-    scanf("%d\n", &grade );
+    scanf("%d", &grade );
     total = total + grade; //adds the grade to the total
     counter = counter + 1; //adds one value to the counter
   }
