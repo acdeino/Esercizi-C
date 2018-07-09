@@ -11,7 +11,7 @@ printf("Very well, now insert a another one:");
 scanf("%d", &second);
 
 int sum = first + second;
-printf("\nThe sum of the numbers you have inserted is %d!\n", sum);
+printf("\nThe sum of the numbers you have inserted is %llu!\n", sum);
 
 }
 
