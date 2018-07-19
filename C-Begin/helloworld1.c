@@ -7,12 +7,13 @@ int main () {
   printf("Enter a number here: ");
   scanf("%s\n", n);
 
-  if(int n < 5 && n < 0){
-    printf("The number you've inserted, %s, is less than 5.\n");
+
+  if (n < 5 && n < 0){
+    printf("The number you've inserted, %s, is less than 5.");
   } else if (n < 0) {
-    printf("The number you've inserted, %s, is a negative number.\n", );
+    printf("The number you've inserted, %s, is a negative number.");
   } else {
-    printf("%s\n", );
+    printf("The number you've inserted, %s, is greater than 5.");
   }
 
 
