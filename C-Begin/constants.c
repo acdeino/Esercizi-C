@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 #define diameter 15.65
 
@@ -7,5 +8,6 @@ int main (int argc, char **argv) {
   printf("\n");
   printf("%f\n", PI);
   printf("%.3f\n", diameter);
+  printf("%.15f\n", M_PI);
   return 0;
 }
