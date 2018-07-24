@@ -1,0 +1,13 @@
+C:\Users\Edo\Desktop\Projects\Esercizi-C\C-Begin\provareadln.c: In function 'getinput_with_fgets':
+C:\Users\Edo\Desktop\Projects\Esercizi-C\C-Begin\provareadln.c:28:3: error: too few arguments to function 'readln'
+   readln();
+   ^~~~~~
+C:\Users\Edo\Desktop\Projects\Esercizi-C\C-Begin\provareadln.c:6:5: note: declared here
+ int readln(char s[], int maxlen) {
+     ^~~~~~
+C:\Users\Edo\Desktop\Projects\Esercizi-C\C-Begin\provareadln.c:30:3: error: too few arguments to function 'readln'
+   readln();
+   ^~~~~~
+C:\Users\Edo\Desktop\Projects\Esercizi-C\C-Begin\provareadln.c:6:5: note: declared here
+ int readln(char s[], int maxlen) {
+     ^~~~~~
