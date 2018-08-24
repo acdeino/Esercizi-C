@@ -7,7 +7,8 @@ void flush_input() {
 }
 
 // Or, even better:
-/* int readln(char s[], int maxlen){
+/*
+int readln(char s[], int maxlen){
   char ch;
   int i;
   int chars_remain;
@@ -24,7 +25,8 @@ void flush_input() {
   }
   s[i]='\0';
   return i;
-} */
+} 
+*/
 
 void getinput_with_gets() {
   char firstname[5];
