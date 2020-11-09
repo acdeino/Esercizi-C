@@ -5,7 +5,7 @@
 
 int main() {
 	printf("Does the compiler fucking work? Yes, it does.\n");
-	
+
 	char Edo [20];
 	char Ste [1000] ="";
 	FILE *fp=fopen("lorem.dat", "r");
@@ -23,11 +23,11 @@ int main() {
 	}
 	fclose(fp);
 	printf("\n");
-	
+
 	printf("Inserisci la stringa da cercare: ");
 	scanf("%s", Edo);
 	printf("La stringa inserita e': %s\n", Edo);
-	
+
 	int i = 0;
 	int o = 0;
 
@@ -38,11 +38,11 @@ int main() {
     }
 	// oppure, al posto del ciclo for:  i = strlen(Edo);
 	printf("La stringa inserita e' composta da %d caratteri.\n", i);
-	
+
 	o = strlen(Ste);
 	printf("Il testo in cui cercare e' composto da %d caratteri.\n", o);
-	
-	
+
+
 	printf("\n");
 	system("PAUSE");
 	return 0;
